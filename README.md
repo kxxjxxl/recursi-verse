@@ -1,5 +1,5 @@
 # recursi-verse
-with its potential for infinite loops, if not handled correctly.
+concept of recursion - with its potential for infinite loops, if not handled correctly.
 
 The Infinite Loop of Divine Algorithms
 
