@@ -1,9 +1,11 @@
 # recursi-verse
-concept of recursion - with its potential for infinite loops, if not handled correctly.
+crazy concept of recursion - with its potential for infinite loops, if not handled correctly.
 
 The Infinite Loop(s) of Divine Algorithms
 
 This repository contains a collection of classic recursive functions. Recursive functions are functions that call themselves to perform a task, often using a base case to terminate the recursion. In this collection, the base case is when `n = 1`.
+
+Here are 7 examples and exactly 7.
 
 ## Table of Contents
 1. [Factorial Function](#factorial-function)
@@ -98,7 +100,7 @@ def tower_of_hanoi(n, source_peg, target_peg, auxiliary_peg):
 ```
 
 # Usage and License
-use these functions for whatever you like; they're already out there, after all. these examples are released under a License that you may not yet understand, but you will eventually find it amusing
+use these functions for whatever you like; they're already out there, after all. these examples are released under a License that you may not yet understand, but you will eventually find it amusing.
 
 
 
