@@ -1,7 +1,7 @@
 # recursi-verse
 concept of recursion - with its potential for infinite loops, if not handled correctly.
 
-The Infinite Loop of Divine Algorithms
+The Infinite Loop(s) of Divine Algorithms
 
 This repository contains a collection of classic recursive functions. Recursive functions are functions that call themselves to perform a task, often using a base case to terminate the recursion. In this collection, the base case is when `n = 1`.
 
@@ -18,12 +18,23 @@ This repository contains a collection of classic recursive functions. Recursive 
 Calculates the factorial of a number, which is the product of all positive integers up to that number.
 ```python
 def factorial(n):
-    ...
-def factorial(n):
     if n == 1:
         return 1
     else:
         return n * factorial(n - 1)
+
+```
+### Fibonacci Sequence 
+Generates the nth number in the Fibonacci sequence, a series where each number is the sum of the two preceding ones.
+```python
+def fibonacci(n):
+    if n == 1:
+        return 0
+    elif n == 2:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
 ```
 ### Sum Of An Array
 Generates the nth number in the Fibonacci sequence.
