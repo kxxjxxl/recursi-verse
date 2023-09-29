@@ -39,27 +39,22 @@ def fibonacci(n):
 
 ```
 ### Sum Of An Array
-Generates the nth number in the Fibonacci sequence.
-```python
-def fibonacci(n):
-    if n == 1:
-        return 0
-    elif n == 2:
-        return 1
-    else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
-
-```
-### Reverse A String
 Calculates the sum of an array of numbers.
 ```python
-def fibonacci(n):
-    if n == 1:
+def array_sum(arr):
+    if not arr:
         return 0
-    elif n == 2:
-        return 1
     else:
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        return arr[0] + array_sum(arr[1:])
+```
+### Reverse A String
+Reversing a string using recursion can be a fun exercise.
+```python
+def reverse_string(s):
+    if len(s) <= 1:
+        return s
+    else:
+        return reverse_string(s[1:]) + s[0]
 
 ```
 ### Greatest Common Divisor (GCD)
